@@ -7,10 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Installazione Laravel
+# Laravel Migration Seeder
 
-````
-## Configurazione Laravel
-```bash
-composer require pacificdev/laravel_9_preset
-````
+### Descrizione:
+
+-   Creaiamo un database da phpmyadmin (es. train_db)
+-   Creiamo una tabella trains e relativa Migration
+-   Create il Model Train e aggiungete un seeder per la classe Train usando FakerPHP.
+-   Create relativo ed un Controller per mostrare nella home page tutti i treni che sono in partenza dalla data odierna.
+
+### Bonus:
+
+Create relativo Controller e rotta per mostrare tutti i treni che sono in partenza dalla data odierna.
